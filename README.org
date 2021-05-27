@@ -42,4 +42,4 @@ nix-shell
 * Примеры графиков
 
 График pvalue сходства средних между 2 группами.
-[[img:pvalue-example.png]]
+[[img/pvalue-example.png]]
