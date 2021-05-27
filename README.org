@@ -1,6 +1,7 @@
 #+TITLE: JetBrain 2021: "New Interactive Integrated Biological Analyzation Service"
 
-Тестовое задание на летнюю стажировку в JetBrains Research на проект “New Interactive Integrated Biological Analyzation Service”.
+Решение тестового задания
+на летнюю стажировку в JetBrains Research на проект “New Interactive Integrated Biological Analyzation Service”.
 
 * Задание
 
@@ -23,7 +24,7 @@ pip install -r requirements.txt
 
 ** Nix
 
-Так на системях с пакетным менеджером Nix
+На системях с пакетным менеджером Nix
 можно воспользоватся следующей командой для
 запуска окружения со всеми необходимыми библиотеками:
 #+begin_src bash :noeval
