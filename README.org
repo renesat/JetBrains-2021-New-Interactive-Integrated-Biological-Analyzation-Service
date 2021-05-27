@@ -11,11 +11,6 @@
 - Используя python визуализировать в виде графиков полученные показатели относительно возраста,
   отобразить p-value полученные на предыдущем этапе
 
-* Структура репозитория
-
-- [[file:Task.ipynb][Task.ipynb]] -
-Решение представленно в файле
-
 * Установка зависимостей
 ** Linux
 
@@ -34,3 +29,10 @@ pip install -r requirements.txt
 #+begin_src bash :noeval
 nix-shell
 #+end_src
+
+* Структура репозитория
+
+- [[file:Task.ipynb][Task.ipynb]] - решение тестового задания
+- [[file:requirements.txt][requirements.txt]] - python зависимости
+- [[file:shell.nix][shell.nix]] - файл конфигурации для nix-shell
+- [[file:data/somascan_171_vs_1305.tsv][data/somascan_171_vs_1305.tsv]] - файл с используемыми данными
