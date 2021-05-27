@@ -37,3 +37,9 @@ nix-shell
 - [[file:requirements.txt][requirements.txt]] - python зависимости
 - [[file:shell.nix][shell.nix]] - файл конфигурации для nix-shell
 - [[file:data/somascan_171_vs_1305.tsv][data/somascan_171_vs_1305.tsv]] - файл с используемыми данными
+
+
+* Примеры графиков
+
+График pvalue сходства средних между 2 группами.
+[[img:pvalue-example.png]]
