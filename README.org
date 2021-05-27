@@ -42,10 +42,13 @@ nix-shell
 * Примеры графиков
 
 График pvalue сходства средних между 2 группами:
+
 [[img/pvalue-example.png]]
 
 Heatmap для показателя GDF15:
+
 [[img/gdf15_heatmap.png]]
 
 lmplot для показателей, которые сильнее всего изменяются в процессе старения:
+
 [[img/5_lmplot.png]]
