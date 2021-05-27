@@ -1,0 +1,36 @@
+#+TITLE: JetBrain 2021: "New Interactive Integrated Biological Analyzation Service"
+
+Тестовое задание на летнюю стажировку в JetBrains Research на проект “New Interactive Integrated Biological Analyzation Service”.
+
+* Задание
+
+- Взять данные таблицы из [[https://drive.google.com/file/d/1tjEQ9k3EHM0kbuZXMmcgyCslss3LtVR6/view?usp=sharing][файла]].
+- Определить 5 показателей, которые сильнее всего изменяются в процессе старения
+- Разделить возрастной диапазон на несколько диапазонов и выполнить статистическую проверку
+  равенства средних значений между выборками диапазонов (можно использовать стандартный t-test)
+- Используя python визуализировать в виде графиков полученные показатели относительно возраста,
+  отобразить p-value полученные на предыдущем этапе
+
+* Структура репозитория
+
+- [[file:Task.ipynb][Task.ipynb]] -
+Решение представленно в файле
+
+* Установка зависимостей
+** Linux
+
+Все необходимые зависимости python
+содержатся в файле [[file:requirements.txt][requirements.txt]].
+Для их установки необходимо выполнить команду:
+#+begin_src bash :noeval
+pip install -r requirements.txt
+#+end_src
+
+** Nix
+
+Так на системях с пакетным менеджером Nix
+можно воспользоватся следующей командой для
+запуска окружения со всеми необходимыми библиотеками:
+#+begin_src bash :noeval
+nix-shell
+#+end_src

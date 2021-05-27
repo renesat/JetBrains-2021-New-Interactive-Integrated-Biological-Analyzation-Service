@@ -1,0 +1,8 @@
+notebook
+ipywidgets
+numpy
+seaborn
+pandas
+scipy
+altair
+tqdm
